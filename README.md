@@ -13,6 +13,9 @@ This document outlines the architecture for implementing a stepper-based workflo
 ## UI Layout Diagram
 
 
+## UI Layout Diagram
+
+```text
 ┌───────────────────────────────────────────────┐
 │ Stepper │               Slot                  │
 │         │                                     │
@@ -22,6 +25,7 @@ This document outlines the architecture for implementing a stepper-based workflo
 │         │─────────────────────────────────────│
 │         │      Cancel     |     Next           │
 └─────────┴─────────────────────────────────────┘
+
 
 
 - Controls overall workflow progression

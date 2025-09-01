@@ -6,7 +6,23 @@ This document outlines the architecture for implementing a stepper-based workflo
 
 ## Architecture Principles
 
+
+
 ### 1. **Single Parent Machine (Stepper)**
+
+## UI Layout Diagram
+
+
+┌───────────────────────────────────────────────┐
+│ Stepper │               Slot                  │
+│         │                                     │
+│         │                                     │
+│         │                                     │
+│         │                                     │
+│         │─────────────────────────────────────│
+│         │      Cancel     |     Next           │
+└─────────┴─────────────────────────────────────┘
+
 
 - Controls overall workflow progression
 - Manages step transitions

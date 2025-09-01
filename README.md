@@ -25,6 +25,7 @@ This document outlines the architecture for implementing a stepper-based workflo
 │         │─────────────────────────────────────│
 │         │      Cancel     |     Next           │
 └─────────┴─────────────────────────────────────┘
+```
 
 
 

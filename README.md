@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document outlines the architecture for implementing a stepper-based workflow system where a parent stepper machine orchestrates multiple child step machines through event-driven communication and automatic progression via `onDone` events.
+This document outlines the architecture for implementing a stepper-based  system where a parent stepper machine orchestrates multiple child step machines through event-driven communication and automatic progression via `onDone` events.
 
 ## Architecture Principles
 
@@ -88,6 +88,7 @@ This document outlines the architecture for implementing a stepper-based workflo
 1. Stepper starts in "step1" state
 2. Stepper invokes FetchDataTree in content slot
 3. FetchDataTree shows its UI
+4. In each State of the child, we assign mappings to the child machine context. 
 4. FetchDataTree sends NEXT_ENABLE event to parent
 5. Parent enables NEXT button
 ```
